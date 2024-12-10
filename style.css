@@ -102,7 +102,7 @@ font-weight: 600;
     top: 18vh;
     left: 5%;
     width: 280px;
-    background: url(/images/bg-card-front.png);
+    background: url(./images/bg-card-front.png);
     background-position: center;
     background-size: cover;
     border-radius: 8px;
