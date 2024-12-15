@@ -2,38 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   
   <title>Interactive card details form</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <!-- <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> -->
+
 </head>
 <body>
 <div class="img-bg">
-  <img src="./images/bg-main-mobile.png" alt="background image">
-  
+  <div class="card-back">
+    <img src="./images/bg-card-back.png" alt="">
+    <p id="card-cvc">000</p>
+  </div>
+  <div class="card-front">
+      <img src="./images/card-logo.svg" alt="">
+     <p id="card-number">0000 0000 0000 0000</p>
+     <p id="name">Jane Appleseed</p>
+     <p id="exp-date"> <span id="MM">00</span>/ <span id="YY">00</span> </p>
+  </div>
+  </div>
 </div>
-<div class="card-back">
-  <img src="./images/bg-card-back.png" alt="">
-  <p id="card-cvc">000</p>
-</div>
-<div class="card-front">
-    <img src="./images/card-logo.svg" alt="">
-   <p id="card-number">0000 0000 0000 0000</p>
-   <p id="name">Jane Appleseed</p>
-   <p id="exp-date"> <span id="MM">00</span>/ <span id="YY">00</span> </p>
-</div>
-  <!-- 0000 0000 0000 0000
-  Jane Appleseed
-  00/00 -->
 
+<div class="form-section">
 
 <form action="">
   <div class="input-aria">
@@ -62,6 +55,7 @@
 </div>
 <input type="submit" id="confirm" value="Confirm">
 </form>
+</div>
   <!-- Completed state start
 
   Thank you!
